@@ -3,8 +3,10 @@
   <head>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery.3.1.0.js"></script>
+    <script src="js/jquery-3.1.0.js"></script>
     <script src="js/scripts.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <title>Mad Libs</title>
   </head>
   <body>
@@ -14,37 +16,47 @@
         <form>
 
           <div class="userInput">
-            <label for="person1">Enter a name: </label>
+            <label for="person1">Enter a name</label>
             <input id="person1" class="form-control" type="text">
           </div><!--end of .userInput -->
 
           <div class="userInput">
-            <label for="verb">Enter a verb: </label>
+            <label for="verb">Enter a verb</label>
             <input id="verb" class="form-control" type="text">
           </div><!--end of .userInput -->
 
           <div class="userInput">
-            <label for="person2">Enter another name: </label>
+            <label for="person2">Enter another name</label>
             <input id="person2" class="form-control" type="text">
           </div><!--end of .userInput -->
 
           <div class="userInput">
-            <label for="animal">Enter a animal: </label>
-            <input id="animal" class="form-control" type="text">
-          </div><!--end of .userInput -->
-
-          <div class="userInput">
-            <label for="noun">Enter a noun: </label>
+            <label for="noun">Enter a noun</label>
             <input id="noun" class="form-control" type="text">
           </div><!--end of .userInput -->
 
           <div class="userInput">
-            <label for="exclamation">Enter a exclamation: </label>
+            <label for="exclamation">Enter an exclamation</label>
             <input id="exclamation" class="form-control" type="text">
           </div><!--end of .userInput -->
 
+          <div class="userInput">
+            <label for="adjective">Enter an adjective</label>
+            <input id="adjective" class="form-control" type="text">
+          </div><!--end of .userInput -->
+
+          <div class="text-center">
+          <button type="submit" class="btn btn-lg btn-success">Show me the story!</button>
+        </div>
+
         </form>
       </div><!--End of #blanks -->
+
+      <div id="story">
+        <h2>A heartwarming tale...</h2>
+        <p>Long ago in a kingdom ruled by justice, <span class="person1"></span> lived a humble life filled with joy with their best friend and partner, <span class="person2"></span>.  Together the two friends loved to <span class="verb"></span>. <span class="person1"></span>'s dream was to become a <span class="noun"></span>.  One day <span class="person1"></span> told
+        <span class="person2"></span>, "My dream is to become a <span class="noun"></span>." "<span class="exclamation"></span>" yelled <span class="person2"></span>. "Why didn't you ever tell me, you <span class="adjective"></span> idiot?"</p>
+      </div>
     </div><!--End of Container -->
   </body>
 </html>

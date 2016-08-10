@@ -1,0 +1,41 @@
+#story {
+  display: none;
+}
+
+body {
+  background-image: url("../img/castle.jpg");
+}
+
+.container {
+  margin-top: 4rem;
+  background-color: #d7adeb;
+  padding: 75px;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+h1, h2{
+  text-align: center;
+  margin: 3rem;
+  font-family: 'Cinzel', serif;
+}
+
+p {
+  font-size: 23px;
+  font-family: 'Poiret One', cursive;
+}
+
+.userInput label {
+  font-size: 23px;
+  font-family: 'Poiret One', cursive;
+  text-align: left;
+}
+
+.btn {
+  margin: 3rem;
+  background-color: #c284e1;
+  border-color: #c284e1;
+}
+.btn:hover {
+  background-color: #d7adeb;
+  border-color: #d7adeb
+}
